@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Lingkaran {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Masukkan jari-jari lingkaran: ");
+        double jariJari = scanner.nextDouble();
+        
+        double luas = Math.PI * Math.pow(jariJari, 2);
+        double keliling = 2 * Math.PI * jariJari;
+        
+        System.out.println("Luas lingkaran: " + luas);
+        System.out.println("Keliling lingkaran: " + keliling);
+    }
+}
